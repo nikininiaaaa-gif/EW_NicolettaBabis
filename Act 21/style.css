@@ -1,0 +1,19 @@
+
+
+.grey{background-color: darkgray;
+    width: 80vw;
+    height: 70vw;
+    margin: 0 auto;
+}
+
+.magenta{background-color: magenta;
+    width: 60vw;
+    height: 30vw;
+}
+
+.green{background-color: greenyellow;
+width: 20vw;
+height: 30vw;}
+
+.red{background-color: red;
+height: 10vw;width: 80vw;}
