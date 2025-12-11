@@ -1,0 +1,13 @@
+
+
+.contenedorprincipal{width: 90%;
+    border: 1px;
+height: 100%; 
+align-items: center;
+display: flex;
+justify-items: center;}
+
+.nombres{margin: 15px;
+padding: 5px;
+flex-direction:row;
+height: 90vh;background-color: magenta;text-align: center; }
