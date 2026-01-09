@@ -1,0 +1,53 @@
+
+body {
+    font-family: Roboto;
+;
+    text-align: center;
+}
+
+
+.frutas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+
+.item {
+    margin-top: 175px;
+    width: 220px;
+}
+
+
+.item img{
+    width: 100%;
+    height: 220px;
+    filter: grayscale(100%);
+}
+
+
+.item img:hover{
+    filter: grayscale(0);
+}
+
+
+.item h2 {
+    margin-top: 15px;
+    font-family: Story Script;
+    font-size: 26px;
+
+}
+
+
+h3{
+    display: inline-block;
+    padding: 18px 40px;
+    background-color: yellow;
+    color: darkmagenta;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 2px solid orange;
+    font-size: 18px;
+}
+

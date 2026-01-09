@@ -1,0 +1,16 @@
+*{text-align: center;}
+
+body {background-image: url("img/Fondo\ \(1\).webp");}
+
+section{margin-top: 325px;}
+
+
+h1{font-family: Story Script;
+color: chartreuse;}
+h1:hover{color: darkgreen;}
+
+a{color: chartreuse;}
+a:hover{color: darkgreen;}
+
+p{font-family:Roboto;
+color: white;}
