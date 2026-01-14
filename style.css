@@ -8,6 +8,9 @@ h3{color: darkslategrey;}
 header{height: 100px; margin-top: 20px;
 }
 
+nav{display: flex;flex-wrap: wrap;
+justify-items: center;}
+
 section{width: 300px;
     height: 40px;
     margin-top: 30px;
@@ -16,11 +19,15 @@ section{width: 300px;
     border-radius: 10px;
     border-color: darkslategrey;
     border-style: solid;
+
 }
 
 a{text-decoration: none;
 color: inherit;
 font-size: 30px; 
 }
-section:hover{background-color: darkslategrey; color: lightseagreen;}
+section:hover{background-color: darkslategrey; color: lightseagreen;
+box-shadow: 0px 20px 15px teal;
+width: 315px;
+border: mintcream solid;}
 

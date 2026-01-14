@@ -1,0 +1,50 @@
+*{align-items: center;
+    text-align: center;
+    font-family: Ballet;
+}
+
+
+/*Cabeceroo*/
+
+header {background-image: url(img/Fondo.jpg);
+height: 250px;
+width: 100%;}
+
+h1 {font-size: 50px;
+padding: 85px;}
+
+/*Texto*/
+
+p{font-family: sans-serif;
+margin: 50px;}
+
+/*fichass de cada imgaen*/
+
+nav{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+section{width:240px;
+border: blue 2px solid;
+margin: 25px;
+}
+
+section:hover{width:240px;
+border: yellow 2px solid;
+margin-bottom: 25px;
+color: coral;
+
+box-shadow: 4px 10px 12px yellow;}
+
+
+img{height:200px;
+padding: 20px;
+} 
+
+a{text-decoration: none;
+color: black;}
+
+a:hover{text-decoration: none;
+color: coral;}
+
