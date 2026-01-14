@@ -8,6 +8,10 @@
 header {background-image: url(img/Elche.jpg);
 height: 250px;
 width: 100%;}
+header:hover{background-image: url(img/Elche.jpg);
+height: 250px;
+width: 100%;
+box-shadow: 4px 4px 20px gray;}
 
 h1 {font-size: 50px;
 padding: 85px;
