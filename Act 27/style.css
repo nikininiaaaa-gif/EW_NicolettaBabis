@@ -1,0 +1,84 @@
+*{text-align: center;align-items: center;
+}
+
+/*Texto*/
+
+h1{font-family: Chewy;font-size: 50px;
+}
+h3{font-family: Chewy;
+}
+
+p{font-family: Arial, Helvetica, sans-serif;
+}
+.red{color: red;
+}
+
+/*Header-Nav caja/s*/
+
+header{display: flex;
+    justify-content: center;justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav{width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+}
+
+
+/*Section-main caja/s*/
+
+section{display: flex;
+    justify-content: center;justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main{
+    margin: 65px 4px 4px 4px ;
+}
+
+div{width: 75px;
+    height: 75px;
+    padding: 75px;
+    color: white;
+}
+
+/*Section-main subcajas*/
+
+.Calzoncillos{background-color: blue;}
+
+.Perfumesdeseñora{background-color: magenta;}
+
+.Pijamasdefelpa{background-color:yellow;
+color: black;}
+
+.Detergentes{background-color:green;}
+
+/*Section-main hovers subcajas*/
+
+.Calzoncillos:hover{transform: translate(10px, 10px);
+border:blue 2px solid;
+background-color: white;}
+
+.Perfumesdeseñora:hover{transform: translate(10px, -10px);
+border:magenta 2px solid;
+background-color: white;}
+
+.Pijamasdefelpa:hover{transform: translate(-10px, -10px);
+border:yellow 2px solid;
+background-color: white;
+color: white;}
+
+.Detergentes:hover{transform: translate(-10px, 10px);
+border:green 2px solid;
+background-color: white;}
+
+/*iframe*/
+
+iframe{
+border: red solid 5px
+}
+
+footer{width: 800px;display: flex;
+align-items: center;}
