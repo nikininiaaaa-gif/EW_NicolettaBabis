@@ -1,0 +1,39 @@
+*{margin: 0 auto;}
+
+header{justify-content: left;}
+
+h1{font-family: "new-astro", sans-serif;
+margin-left: 20px;}
+
+nav{display: flex;
+text-align: center;
+justify-content: space-between;
+margin-bottom: 30px;
+width: 90%;
+background-color: #FF4733;
+margin-top: 20px;}
+
+div{width: 90px;
+background-color:#FF4733;}
+
+a{text-decoration: none;
+color: aliceblue;}
+
+#Banner-rebajas{width: 100%;}
+
+h3{text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+font-family: "alight-slab", sans-serif;}
+
+section{background-image: url(img\ 2/Fondo.webp);
+background-size: cover;
+display: flex;
+width: 95%;
+height: 250px;
+}
+
+footer{display: flex;color: #FF4733;
+font-family: "alight-slab", sans-serif;
+margin-top: 10px;}
+
