@@ -1,0 +1,74 @@
+
+body{
+  background-color: black;
+  text-align: center;
+}
+
+header{
+  text-align: center;
+  align-items: center;
+}
+
+h1, h5 {
+ font-family: "futura-pt", sans-serif;
+ color: white;
+}
+
+section{ align-items: center; display: flex; justify-content: space-around; flex-wrap: nowrap;}
+
+section div{
+  width: 240px;
+  height: 240px;
+  background-color: yellow;
+}
+
+.box:hover{
+  background-image: url(img/gilda2.webp);
+  background-size: cover;
+}
+
+h2{
+  font-family: "playfair-display", serif;
+  font-size: 40px;
+  justify-content: center;
+  }
+
+.olive{
+  border: solid red 5px;
+}
+
+footer{
+  width: 90%;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: white;
+  border: solid red 2px;
+  text-align: center;
+  font-size: 25px
+
+}
+.emoji{
+ justify-content: space-around;
+margin-top: 20px;
+}
+
+
+@media (orientation: landscape)
+
+ { section { flex-direction: row;}
+ 
+ .sevillana{ display: none;}
+
+}
+@media (orientation: portrait) { 
+  
+  section{ flex-direction: column;}
+
+  section div {
+    background-color: olive;
+    margin-top: 15%;
+  }
+
+  footer {display: none;}
+}
