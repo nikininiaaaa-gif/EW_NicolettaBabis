@@ -1,0 +1,114 @@
+*{
+   font-family: "tonos", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+color: black;
+margin: 0;
+}
+
+nav{
+    font-size: 1vw;
+    display: flex;
+    margin-top: 2vw;
+    justify-content: left;
+    margin-left: 6vw;
+    width: 90vw;
+}
+
+
+h3{
+    margin-right: 7vw;
+}
+
+
+header h1{
+    font-size: 3vw;
+    margin-left: 6vw;
+    margin-bottom: 0.5vw;
+    color: #daa00f;
+    font-family: "begaz", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header img {
+    width: 90%;
+    margin-left: 6vw;
+}
+
+
+article{
+    background-color: #eedc10;
+    font-size: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 9vw;
+    width: 100vw;
+    margin-bottom: 2vw;
+}
+
+.seccion img { 
+    width: 100%;
+}
+
+
+.seccion{
+    display: flex;
+    margin-left: 6vw;
+    justify-content: space-between;
+    
+}
+
+section .gafas{
+    border: #daa00f solid 0.4vw;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+}
+
+section .zapato{
+     border: #daa00f solid 0.4vw;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    margin-left: 6vw;
+}
+
+section .fruta{
+    border: #daa00f solid 0.4vw;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    margin-left: 6vw;
+}
+section div div p{font-weight: 800;}
+
+footer{ margin-top: 2vw;
+display: flex;}
+
+.uno{
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 6vw;
+    margin-right: 8vw;
+}
+.dos{
+     font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 6vw;
+    margin-right: 8vw;
+}
+.tres{
+     font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 6vw;
+}
+
+@media screen and (max-width:600px){
+    body{ background-color: #eedc10;}
+    header h1{ color: black;}
+    header img{ box-shadow: 1vw 1vw 2vw black;}
+    article{ display: none;}
+    .seccion{ display: none;}
+}
