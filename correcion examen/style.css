@@ -5,6 +5,7 @@ font-style: normal;
 text-decoration: none;
 color: black;
 margin: 0;
+align-items: center;
 }
 
 nav{
@@ -73,6 +74,16 @@ section .zapato{
     text-align: center;
     font-size: 2vw;
     margin-left: 6vw;
+}
+
+.imagn{display: flex;
+    justify-content: center;
+    padding: 0vw 3vw 3vw 3vw;
+    justify-content: center;
+    
+}
+
+.imagen img{width: 100%;
 }
 
 section .fruta{
