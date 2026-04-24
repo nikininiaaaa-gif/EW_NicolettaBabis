@@ -1,0 +1,23 @@
+.cont{
+margin: 4vw;
+display: grid;
+grid-template-columns: auto auto auto auto ;
+grid-template-rows: 30vw 30vw 30vw ;
+background-color: green;
+}
+
+div{border: 3px solid black;
+text-align: center;}
+
+.itemuno{grid-column: 1;
+grid-row-start: 1;
+grid-row-end: 3;}
+
+.itemdos{color: white;
+grid-column-start: 2;
+grid-column-end: 6;}
+
+.itemcuatro{background-color: white;}
+
+.itemsiete{grid-column-start: 1;
+grid-column-end: 6;}
