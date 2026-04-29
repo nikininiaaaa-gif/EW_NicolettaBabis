@@ -1,0 +1,38 @@
+body{
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "footer footer";
+    text-align: center;
+    border: solid blue 1px;
+    display: grid;
+    margin: 5vw;
+}
+
+header{
+    color: blue;
+    padding: 10px;
+    border: solid blue 1px;
+    grid-area: header;
+}
+
+nav{
+    border: solid blue 1px;
+    grid-area: nav;
+    text-align: left;
+    padding: 1vw;
+}   
+main{
+    border: solid blue 1px;
+   grid-area: main;
+   text-align:left ;
+   padding: 2vw;
+}
+
+footer{
+    border: solid blue 1px;
+    background-color: blue;
+    color: white;
+    grid-area: footer;
+}
