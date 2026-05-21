@@ -1,0 +1,107 @@
+body{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 
+    "header header header header"
+     "main main main main"
+    "baner baner baner baner" 
+    "plantas plantas plantas texto" 
+    "footer footer footer footer ";
+    grid-template-rows: auto auto auto auto;
+    font-family: "nouvelle-vague", sans-serif;
+}
+
+header{
+    display: grid;
+    display: flex;
+    grid-area: header;
+}
+
+header div{
+ padding-bottom: 2vw;
+}
+
+
+
+header nav div{
+    padding-top: 3vw;
+    padding-left: 9vw;
+} 
+
+
+main{
+    display: flex;
+    grid-area: main;
+    flex-direction: row;
+    
+    
+}
+main div {
+    padding-left: 4vw ;  
+    text-align: center;  
+    color: #65880f;
+}
+main img{ width:20vw;}
+
+.Baner{
+    background-color:  #65880f;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+    text-align: center;
+    grid-area: baner;
+    font-size: 2vw;
+}
+
+.Baner p:hover{
+    color: white;
+}
+
+.plantas{
+    text-align: center;
+    grid-area: plantas;
+}
+
+.plantas a img{
+   width: 20vw;
+} 
+
+
+.texto{
+    grid-area: texto;
+    color: #65880f;
+}
+
+footer{
+ background-color: #65880f;
+ padding-top: 2vw;
+ padding-bottom: 2vw ;
+ display: flex;
+ justify-content: space-around;
+}
+
+footer p{
+ padding-left: 3vw;
+ padding-right: 3vw;
+ padding-top: 3vw;
+ padding-bottom: 3vw;
+ color: white;
+ border: solid 0.3vw white;
+ font-family: none;
+}
+
+
+@media only screen and  (max-width:1000px){
+    main{ 
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer p{
+        margin-left: 4vw ;
+        margin-right: 4vw;
+    }
+    
+}
